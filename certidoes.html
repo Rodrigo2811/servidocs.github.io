@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/novo.css">
+	<link rel="stylesheet" type="text/css" href="./css/meugrafico.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<script src="./JS/validaCertidao.js"></script>
+
+	<title>ServiDocs-Solicitação de certidão</title>
+</head>
+
+<body>
+
+	<header>
+		<div>
+			<img class="img-logo" src="./imagens/logomarca.webp">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Inicio</li></a>
+				<li><a href="servicos.html">Serviços</li></a>
+				<li><a href="contato.html">Contato</li></a>
+				<li><a href="cliente.html">Clientes</li></a>
+				<li><a href="Sobre.html">Sobre Nos</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<h2 class="titulo-form-certidao">Faça aqui seu pedido de certidão</h2>
+
+	<article class="form-certidao">
+
+
+		<form action="https://formsubmit.co/atendimentoservidocs@gmail.com" id="furmulario-certidao" method="post">
+
+			<div class="form-group" id="select-certidao">
+				<label for="my-select"></label>
+				<select id="my-select" class="form-control" name="">
+					<option selected="selected">Selecione a Certidão</option>
+					<option>Casamento</option>
+					<option>Nascimento</option>
+					<option>Óbito</option>
+				</select>
+			</div>
+			</div>
+
+			<div class="col-md-4" class="form-dados">
+				<label for="Nome" class="form-label">Nome</label>
+				<input type="text" class="form-control" id="Nome" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="email" class="form-label">Email</label>
+				<input type="email" class="form-control" id="email">
+			</div>
+			<div class="col-md-4">
+				<label for="telefone" class="form-label">Telefone</label>
+				<input type="text" class="form-control" id="telefone" maxlength="15" value="">
+			</div>
+
+			<div class="col-md-4">
+				<label for="cidade" class="form-label">Cidade</label>
+				<input type="text" class="form-control" id="cidade" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="estado" class="form-label">Estado</label>
+				<input type="text" class="form-control" id="estado" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="cartorio" class="form-label">Cartório</label>
+				<input type="text" class="form-control" id="cartorio" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="livro" class="form-label">Livro</label>
+				<input type="text" class="form-control" id="livro" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="folha" class="form-label">Folha</label>
+				<input type="text" class="form-control" id="folha" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="termo" class="form-label">Termo</label>
+				<input type="text" class="form-control" id="termo" value="">
+			</div>
+			<div class="col-md-4">
+				<label for="anexo" class="form-label">Anexar Documento</label>
+				<input type="file" class="form-control" id="anexo" value="">
+			</div>
+
+
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+				id="btn-certidao" onclick="validaCertidao()">Solicitar</button>
+
+			</div>
+		</form>
+
+
+
+	</article>
+
+	<footer>
+		<div class="footer1">
+			<h3>Rua Getulio Vargas Nº 33 - loja 9</h3>
+			<h3>Centro - Dias d'Ávila</h3>
+			<h3>Cep 42850-000</h3>
+
+		</div>
+
+		<div class="Redes">
+			<a href="https://instagram.com/servidocs_?igshid=YmMyMTA2M2Y=">
+				<i class="fa-brands fa-instagram"> Instagram</i></a>
+			<p> <i class="fa-solid fa-at"></i> atendimentoservidocs@gmail.com</p>
+			<a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"> (71) 98366-5465</i></a>
+
+		</div>
+
+	</footer>
+	<script src="https://kit.fontawesome.com/6603d8438e.js" crossorigin="anonymous"></script>
+	<script src="./JS/bootstrap.min.js"></script>
+	<script src="./JS/jquery-3.6.0.min.js"></script>
+	<script src="./JS/script.js"></script>
+
+</body>
+
+</html>

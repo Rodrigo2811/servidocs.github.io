@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/novo.css">
+	<link rel="stylesheet" type="text/css" href="./css/meugrafico.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<title>ServiDocs-Contato</title>
+</head>
+
+<body>
+
+	<header>
+		<div>
+			<img class="img-logo" src="./imagens/logomarca.webp">
+		</div>
+
+		<nav>
+
+			<ul>
+				<li><a href="home.html">Inicio</li></a>
+				<li><a href="servicos.html">Serviços</li></a>
+				<li><a href="contato.html" class="btn-active">Contato</li></a>
+				<li><a href="cliente.html">Clientes</li></a>
+				<li><a href="Sobre.html">Sobre Nós</a></li>
+
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<div class="container-titulo-contato">
+			<h5 class="titulo-contato">Fale Conosco</h5>
+		</div>
+
+		<article>
+
+			<img class="imagem-contato" src="./imagens/atendente.jpg" width="500px">
+
+
+			<form action="https://formsubmit.co/atendimentoservidocs@gmail.com" method="post" class="form-contato"
+				id="formContato">
+
+				<div class="col-md-4">
+					<label for="Nome" class="form-label">Nome</label>
+					<input type="text" class="form-control" id="Nome" name="nome">
+				</div>
+				<div class="col-md-4">
+					<label for="email" class="form-label">Email</label>
+					<input type="email" class="form-control" id="email" name="email">
+				</div>
+				<div class="col-md-4">
+					<label for="telefone" class="form-label">Telefone</label>
+					<input type="text" class="form-control" id="telefone" maxlength="15" name="telefone">
+				</div>
+
+				<div class="mb-3">
+					<label for="mensagem" class="form-label">Mensagem</label>
+					<textarea class="form-control" name="mensagem" id="mensagem" rows="3"></textarea>
+
+				</div>
+				<p>
+					<button class="btn btn-primary" type="button" value="submit" onclick="validaContato()" data-toggle="modal"
+						data-target="#contentId" aria-expanded="false" aria-controls="contentId" id="btn-contato">
+						Enviar
+					</button>
+				</p>
+				<input type="hidden" name="_captcha" value="false">
+				<div class="collapse" id="contentId">
+
+				</div>
+				<div class="modal" tabindex="-1" role="dialog" id="modal-contato">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Mensagem Enviada com</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Texto do corpo do modal, é aqui.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+	</section>
+	</article>
+
+	<footer>
+		<div class="footer1">
+			<h3>Rua Getulio Vargas Nº 33 - loja 9</h3>
+			<h3>Centro - Dias d'Ávila</h3>
+			<h3>Cep 42850-000</h3>
+
+		</div>
+
+		<div class="Redes">
+			<a href="https://instagram.com/servidocs_?igshid=YmMyMTA2M2Y=">
+				<i class="fa-brands fa-instagram"> Instagram</i></a>
+			<p> <i class="fa-solid fa-at"></i> atendimentoservidocs@gmail.com</p>
+			<a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"> (71) 98366-5465</i></a>
+
+		</div>
+
+
+	</footer>
+	<script src="https://kit.fontawesome.com/6603d8438e.js" crossorigin="anonymous"></script>
+	<script src="./JS/bootstrap.min.js"></script>
+	<script src="./JS/jquery-3.6.0.min.js"></script>
+	<script src="./JS/script.js"></script>
+</body>
+
+</html>

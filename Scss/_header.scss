@@ -1,0 +1,22 @@
+header {
+    background: rgb(255, 255, 255);
+    margin-top: 2px;
+    color: rgb(5, 13, 151);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.388);
+    border-bottom: 3px solid rgb(5, 13, 151);
+    z-index: 1;
+}
+
+
+
+header img {
+    width: 200px;
+    height: auto;
+    z-index: 1;
+}

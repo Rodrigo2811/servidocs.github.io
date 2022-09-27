@@ -1,0 +1,54 @@
+footer {
+
+    width: 100%;
+    text-align: left;
+    background: rgb(5, 13, 151);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 2px;
+    padding: 80px;
+    box-shadow: -2px -12px 5px rgba(18, 19, 19, 0.64);
+
+}
+
+footer p {
+    color: white;
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: 0;
+
+}
+
+.footer1 {
+    color: white;
+    text-align: left;
+    display: block;
+}
+
+.accordion {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer1 h3 {
+    color: white;
+    font-size: 1rem !important;
+}
+
+footer .Redes {
+    color: white !important;
+    text-align: right;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.fa-brands:hover {
+    color: orange;
+    font-size: .7rem;
+}

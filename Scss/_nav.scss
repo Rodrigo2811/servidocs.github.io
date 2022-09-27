@@ -1,0 +1,62 @@
+li {
+    display: inline;
+    margin: 15px;
+    align-items: center;
+}
+
+a {
+    font-size: 1.3rem;
+    color: rgb(5, 13, 151) !important;
+    text-decoration: none !important;
+    transition: 0.3s all !important;
+
+}
+
+a:hover {
+
+    color: orangered !important;
+
+}
+
+@keyframes border {
+
+    0% {
+        border-width: 2px solid orangered;
+        width: 0;
+
+    }
+
+    25% {
+        border-width: 2px solid orangered;
+        width: 25px;
+
+    }
+
+    50% {
+        border-width: 2px solid orangered;
+        width: 50px;
+    }
+
+    100% {
+        border-bottom: 2px sold orangered;
+        width: 100%;
+    }
+}
+
+.btn-active {
+    border-bottom: 2px solid orangered;
+
+}
+
+ul p {
+    text-align: right;
+}
+
+.fa-whatsapp {
+    font-size: 1.5rem;
+    margin-left: 400px;
+}
+
+nav {
+    z-index: 1;
+}
